@@ -1,0 +1,29 @@
+h1::before,
+h2::before {
+  content: '『'
+}
+
+h1::after,
+h2::after {
+  content: '』'
+}
+
+.btn {
+  width: 100px;
+  background: skyblue;
+  text-align: center;
+  padding: 4px;
+  color: white;
+  cursor: help;
+}
+
+.btn:hover {
+  /* opacity: 0.8; */
+  color: skyblue;
+  background-color: white;
+  border: 1px solid skyblue;
+}
+
+ul li:nth-child(3n) {
+  color: orange;
+}
