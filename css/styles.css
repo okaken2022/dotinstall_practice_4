@@ -10,11 +10,13 @@ h2::after {
 
 .btn {
   width: 100px;
+  height: 32px;
   background: skyblue;
   text-align: center;
   padding: 4px;
   color: white;
   cursor: help;
+  box-sizing: border-box;
 }
 
 .btn:hover {
@@ -22,6 +24,7 @@ h2::after {
   color: skyblue;
   background-color: white;
   border: 1px solid skyblue;
+  box-sizing: border-box;
 }
 
 ul li:nth-child(3n) {
